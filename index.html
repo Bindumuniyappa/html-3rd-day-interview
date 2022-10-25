@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>HTML INTERVIEW 3rd QNA</h1>
+    <h2>1.Write a code to insert an image.</h2>
+    <p><b>Code:-</b></p>
+    <p>&ltimg src=”address of the link” /&gt</p>
+    <p><b>Output:-</b></p>
+    <img
+      src="Prepbytes home page.png"
+      alt="prepbytes home page"
+      width="350
+    "
+    />
+    <h2>
+      2. Create a form that contain input fields like name, age, email and
+      contact.
+    </h2>
+    <pre style="color: brown">
+&ltform action="#"&gt
+
+&ltlabel&gt for="name">Name:&lt/label&gt
+&ltinput type="text"name="name"id="name"&gt
+
+&ltlabel&gt for="email">Email:&lt/label&gt
+&ltinput type="email"name="email"id="name"&gt
+
+&ltlabel for="age">Age: &lt/label&gt
+&ltinput type="number"name="age"id="name"&gt
+
+&ltlabel&gt for="contact">Contact:&lt/label&gt
+&ltinput type="tel"name="contact"id="contact"&gt
+
+&lt/form&gt
+</pre
+    >
+    <p><b>Output:-</b></p>
+    <label for="name">Name</label>
+    <input type="text" name="name" />
+    <br />
+    <br />
+    <label for="age">Age</label>
+    <input type="text" name="age" />
+    <br />
+    <br />
+    <label for="email">mail id</label>
+    <input type="text" name="email" />
+    <br />
+    <br />
+    <label for="Contact no">Contact no</label>
+    <input type="number" name="no" />
+    <br />
+    <br />
+    <h2>
+      3.Write a HTML code to create 2*2 : Table column should be name and
+      salary, provide two entries for this.
+    </h2>
+    <pre style="color: brown">
+&lttable border="2"&gt
+&lttr&gt
+&ltth Name&gt
+&ltth colspan="2">Designation&lt/th&gt
+&lt/tr&gt
+&lttr&gt
+&lttd&gtBindu&lt/td&gt
+&lttd&gtfront end&lt/td&gt
+&lttd&gtback end&lt/td&gt
+&lt/tr&gt
+&lttr&gt
+&lttd&gtNeeru&lt/td&gt
+&lttd&gtfront end&lt/td&gt
+&lttd&gtback end&lt/td&gt
+&lt/tr&gt
+&lt/table&gt
+</pre
+    >
+    <p><b>Output:-</b></p>
+    <table border="2">
+      <tr>
+        <th>Name</th>
+        <th colspan="2">Designation</th>
+      </tr>
+      <tr>
+        <td>Bindu</td>
+        <td>front end</td>
+        <td>back end</td>
+      </tr>
+      <tr>
+        <td>Neeru</td>
+        <td>front end</td>
+        <td>back end</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <h2>
+      4.Create radio button (MERN, MEAN: course)and checkbox(HTML, CSS, React,
+      Node: technology) and explain the difference between these two?
+    </h2>
+    <pre
+      style="color: brown"
+    >&ltinputtype="radio"value="MERN"name="course"id="course"&gt
+&ltlabel&gt for="course">MERN&lt/label&gt
+
+&ltinput type="radio"value="MEAN"name="course"id="course"&gt
+&ltlabel&gt for="course">MEAN&lt/label&gt
+
+&ltinput type="checkbox"value="HTML"name="technology-1"id="technology"&gt
+&ltlabel&gt for="technology">HTML&lt/label&gt
+
+&ltinput type="checkbox"value="CSS"name="technology-2"id="technology"&gt
+&ltlabel&gt for="technology">CSS&lt/label&gt
+
+&ltinput type="checkbox"value="React"name="technology-3"id="technology"&gt
+&ltlabel&gt for="technology">React&lt/label&gt
+
+&ltinput type="checkbox"value="Node"name="technology-4"id="technology"&gt
+&ltlabel&gt for="">Node&lt/label&gt<br><br>
+</pre>
+    <p><b>Output:-</b></p>
+    <input type="radio" value="MEAN" name="mean" />
+    <label for="MEAN">MEAN</label>
+    <input type="radio" value="MERN" name="mean" />
+    <label for="MERN">MERN</label>
+    <br />
+    <br />
+    <input type="checkbox" value="HTML" name="HTML" />
+    <label for="HTML">HTML</label>
+    <input type="checkbox" value="CSS" name="CSS" />
+    <label for="CSS">CSS</label>
+    <input type="checkbox" value="React" name="React" />
+    <label for="react">React</label>
+    <input type="checkbox" value="node" name="node" />
+    <label for="node">node</label>
+    <br />
+    <br />
+    <br />
+    <table border="1">
+      <tr>
+        <th>Radio</th>
+        <th>Check box</th>
+      </tr>
+      <tr>
+        <td>
+          Its is used when only one option to be selected out of several
+          available options.
+        </td>
+        <td>Checkbox allow one or many options to be selected.</td>
+      </tr>
+      <tr>
+        <td>Radio button is presented as small circle on the screen.</td>
+        <td>Checkbox is presented as small square box on the screen.</td>
+      </tr>
+      <tr>
+        <td>
+          It is used when you want to limit the user’s choice to just one option
+          from the range provided.
+        </td>
+        <td>
+          It is used when you want to allow user to select multiple options.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
